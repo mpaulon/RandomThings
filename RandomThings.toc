@@ -1,0 +1,7 @@
+## Interface 90002
+## Title: RandomThings
+## Notes: Test addon
+## Version: 0.1
+itemslist.lua
+data.lua
+RandomThings.lua
