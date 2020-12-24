@@ -9,7 +9,7 @@ local function DropChanceTooltip(tooltip)
     tooltip:AddLine(string.format("Expansion: %s", RandomThings.expansions[itemExpansion]))
     itemDropRate = RandomThings.items[itemID]
     if not itemDropRate then return; end
-    tooltip:AddLine(string.format("Drop rate: %d", itemDropRate))
+    tooltip:AddLine(string.format("Drop rate: %.2f %%", itemDropRate))
 end
 
 GameTooltip:HookScript("OnTooltipSetItem", DropChanceTooltip)
